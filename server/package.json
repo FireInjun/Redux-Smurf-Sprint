@@ -3,8 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
   "dependencies": {
     "bell": "^9.4.0",
-    "hapi": "^17.7.0"
+    "boom": "^7.2.2",
+    "glue": "^5.0.0",
+    "hapi": "^17.7.0",
+    "hapi-auth-jwt2": "^8.1.0",
+    "jsonwebtoken": "^8.4.0",
+    "sequelize": "^4.41.2",
+    "sqlite3": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
   }
 }
