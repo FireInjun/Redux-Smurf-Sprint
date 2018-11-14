@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "bell": "^9.4.0",
     "hapi": "^17.7.0"
   }
 }
