@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "concurrently \"cd frontend && yarn start\" \"cd backend && yarn start\"",
-    "pretty": "concurrently \"cd frontend && prettier --write \"**/*.js\"\" \"cd backend && prettier --write \"**/*.js\"\"",
+    "pretty": "prettier --write \"**/*.js\"",
     "setup": "concurrently \"yarn\"\"cd frontend && yarn\" \"cd backend && yarn\"",
     "test": "concurrently \"cd frontend && yarn test\" \"cd backend && yarn test\"",
     "lint": "eslint ./**/*"
