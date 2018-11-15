@@ -11,9 +11,15 @@
     "test": "concurrently \"cd frontend && yarn test\" \"cd backend && yarn test\"",
     "lint": "eslint ./**/*"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
-    "*.js": [
-      "npm run pretty"
+    "*.{js,json,css,md}": [
+      "npm run pretty",
+      "git add"
     ]
   },
   "dependencies": {
