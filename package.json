@@ -1,0 +1,26 @@
+{
+  "name": "Redux-Smurf-Sprint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:FireInjun/Redux-Smurf-Sprint.git",
+  "author": "FireInjun <mk@fireinjun.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"cd frontend && yarn start\" \"cd backend && yarn start\""
+  },
+  "dependencies": {
+    "@o2team/gulp-prettier-eslint": "^3.0.1",
+    "babel-eslint": "^10.0.1",
+    "concurrently": "^4.0.1",
+    "eslint": "^5.9.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "git-guppy": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-bucket": "^1.1.0",
+    "gulp-ignore": "^2.0.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-watch": "^5.0.1",
+    "prettier": "^1.15.2"
+  }
+}
