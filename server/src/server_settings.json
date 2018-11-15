@@ -1,8 +1,0 @@
-{
-    "connections": [
-        {
-            "port": 3000,
-            "labels": ["http"]
-        }
-    ]
-}

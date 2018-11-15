@@ -1,27 +1,26 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "main": "lib/index.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "node server",
+    "test": "lab -a code -L",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "bell": "^9.4.0",
-    "boom": "^7.2.2",
-    "glue": "^5.0.0",
-    "hapi": "^17.7.0",
-    "hapi-auth-jwt2": "^8.1.0",
-    "joi": "^14.0.6",
-    "jsonwebtoken": "^8.4.0",
-    "sequelize": "^4.41.2",
-    "sequelize-cli": "^5.3.0",
-    "sqlite3": "^4.0.4",
-    "uuid": "^3.3.2"
+    "boom": "7.x.x",
+    "haute-couture": "3.x.x",
+    "joi": "13.x.x"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-nodemon": "^2.4.1",
-    "nodemon": "^1.18.6"
+    "code": "5.x.x",
+    "confidence": "3.x.x",
+    "dotenv": "6.x.x",
+    "eslint": "5.x.x",
+    "eslint-config-hapi": "12.x.x",
+    "eslint-plugin-hapi": "4.x.x",
+    "glue": "5.x.x",
+    "hapi": "17.x.x",
+    "hpal-debug": "1.x.x",
+    "lab": "16.x.x",
+    "toys": "2.x.x"
   }
 }
