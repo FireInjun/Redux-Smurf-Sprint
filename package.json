@@ -9,7 +9,7 @@
     "pretty": "prettier --write './**/*.js'",
     "setup": "concurrently \"yarn\"\"cd frontend && yarn\" \"cd backend && yarn\"",
     "test": "concurrently \"cd frontend && yarn test\" \"cd backend && yarn test\"",
-    "lint": "eslint ./**/*"
+    "lint": "eslint './**/*'"
   },
   "husky": {
     "hooks": {
